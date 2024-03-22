@@ -4,9 +4,7 @@ const client = new Discord.Client({
   checkUpdate: false
 });
 
-const keepAlive = require('./server.js');
-keepAlive();
-
+const keep_alive = require('./keep_alive.js')
 function formatTime() { //Credits to himika#0001 and never#0001
   const date = new Date();
   const options = {
