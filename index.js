@@ -33,7 +33,7 @@ client.on('ready', async () => {
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/919170276569272340/1220394728453963967/dont_have_bg.gif?ex=660ec829&is=65fc5329&hm=ff1a73289d9ba72c237eaf4e848e9aaba9ba10c19f557d8a8e3d1e4b4c8d94e4&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('P') //Text when you hover the Small image
     .addButton('˚ INSTARGRAM 🕷 ˚ ', 'https://www.instagram.com/jxnla_bxnz.xyz/')
-    .addButton('OUT NOW Bo D ✰', 'https://soundcloud.com/wxnz-653259588/bo-d-bo-man-der');
+    .addButton('SOUNDCLOUD ✰', 'https://soundcloud.com/wxnz-653259588');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
