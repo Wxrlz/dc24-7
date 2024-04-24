@@ -26,11 +26,11 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/discord/') //Must be a youtube video link 
     .setState('『 𝙒𝙭𝙧𝙡𝙯𝙖𝙞𝙣𝙜 𝙎𝙩𝙖𝙧 』')
     .setName('W')
-    .setDetails(`•${formatTime()}• 『 𝙅𝘽_𝘾𝟮 』`)
+    .setDetails(`•${formatTime()}• 『 𝙅𝘽_𝙘𝙢𝙧 』`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/919170276569272340/1220798226551148704/91a5926602d6261eedfe60798a98b096.gif?ex=66103ff2&is=65fdcaf2&hm=463facfca89c738e4c6b8f21530909e568a803276d3a11dc1343623215a1acf5&=') //You can put links in tenor or discord and etc.
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/919170276569272340/1232669029139746856/e54afabd75adb33464e85f2687b43f87.gif?ex=662a4bfe&is=6628fa7e&hm=0309d5dd968473ad8c25371c732a007c83800b7ffab79a4b2665a23929b86c95&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('『 𝗝𝗕𝗜𝗦𝗖𝗢𝗠𝗜𝗡𝗚 』') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/919170276569272340/1220394728453963967/dont_have_bg.gif?ex=660ec829&is=65fc5329&hm=ff1a73289d9ba72c237eaf4e848e9aaba9ba10c19f557d8a8e3d1e4b4c8d94e4&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/919170276569272340/1232669029676748810/Hand.gif?ex=662a4bfe&is=6628fa7e&hm=a4222b3bb32491d8a919d16af9bb6cf8b02cce08cdca0abeac3ca84c6f45b22b&=&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('P') //Text when you hover the Small image
     .addButton('˚ INSTARGRAM 🕷 ˚ ', 'https://www.instagram.com/jxnla_bxnz.xyz/')
     .addButton('˚ SOUNDCLOUD ✰ ˚', 'https://soundcloud.com/wxnz-653259588');
@@ -42,7 +42,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `•${newTime}• 『 𝙅𝘽_𝘾𝟮 』`;
+      const newDetails = `•${newTime}• 『 𝙅𝘽_𝙘𝙢𝙧 』`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
