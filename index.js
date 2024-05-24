@@ -28,9 +28,9 @@ client.on('ready', async () => {
     .setName('W')
     .setDetails(`•${formatTime()}• 『 𝙅𝘽_𝙘𝙢𝙧 』`)
     .setStartTimestamp(Date.now())
-    .setAssetsLargeImage('https://media.discordapp.net/attachments/919170276569272340/1240259325818175518/882013f5b022906a0fadaa30dfea22dd.gif?ex=6645e902&is=66449782&hm=dcf4fc55ea855c9b56a73213c00903f3f70b7bfc9435760e77899302ea8c102a&=') //You can put links in tenor or discord and etc.
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/919170276569272340/1243523501541822545/9b09b7d14aa10f1322b316d160ed480e.gif?ex=6651c902&is=66507782&hm=b97d29f06793908b446a842586e9f1c1b6f2e2deecd8492bd7beafd0cb956247&=') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('『 𝗝𝗕𝗜𝗦𝗖𝗢𝗠𝗜𝗡𝗚 』') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/919170276569272340/1232669029676748810/Hand.gif?ex=664552be&is=6644013e&hm=f3341ee6010fa03e58ef58755be2e73f5fa6946c36e7f976c45c2ce206e454a3&=') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/919170276569272340/1243523502041075732/dont_have_bg.gif?ex=6651c902&is=66507782&hm=ae6f9c0b00029b03468c7b6545ee70bfa14222ba76171579e023874376f1c6bf&=') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Ma money on the floor if u want') //Text when you hover the Small image
     .addButton('˚ INSTARGRAM 🕷 ˚ ', 'https://www.instagram.com/jxnla_bxnz/')
     .addButton('˚ SOUNDCLOUD ✰ ˚', 'https://soundcloud.com/wxnz-653259588');
